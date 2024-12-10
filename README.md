@@ -1,10 +1,10 @@
 # Dio.me---Suzano---An-lise-de-Dados-com-Power-BI
 Publicar os desafios de Projetos do curso Suzano - Análise de Dados com Power BI, ofertado pela DIO.
 
-Esse Projeto possui dois desafios: 1 - Modelo Entidade-Relacionamento Extendido para um E-Commerce.
-                                   2 - Modelo Entidade-Relacionamento Extendido para uma Oficina.
+Esse Projeto possui dois desafios: 1 - Modelo Entidade-Relacionamento Estendido para um E-Commerce.
+                                   2 - Modelo Entidade-Relacionamento Estendido para uma Oficina.
 
-1 - Modelo Entidade-Relacionamento Extendido para um E-Commerce.
+1 - Modelo Entidade-Relacionamento Estendido para um E-Commerce.
 
 Foi criado uma entidade "Cliente" que permite que seja cadastrado Cartões de Crédito e Débito. Também foi criado duas especializações para "Cliente": "ClientePF" e "ClientePJ".
 
@@ -29,10 +29,10 @@ A entidade com mais atributos é "Pedido": StatusDoPedido: indicando se o produt
 ![ModeloEER - ECommerce](https://github.com/user-attachments/assets/2f0be0f2-6e26-4463-afb4-f5871d91ce56)
 
 
-2 - Modelo Entidade-Relacionamento Extendido para uma Oficina.
+2 - Modelo Entidade-Relacionamento Estendido para uma Oficina.
 
 Neste Modelo EER foi criado uma entidade "Cliente" que pode entregar vários "Veículos" para uma ou várias "Equipes de Mecânicos" avaliarem se os "Veículos" precisam de reparo ou apenas uma revisão periódica.
-Após avaliar o "Veículo", A "Equipe de Mecânicos" faz um orçamento com os valores de preço puxados de duas tabelas de referência: "Mão de Obra" e "Peça".
+Após avaliar o "Veículo", a "Equipe de Mecânicos" faz um orçamento com os valores de preço puxados de duas tabelas de referência: "Mão de Obra" e "Peça".
 Assim, a "Equipe de Mecânicos" gera uma "Ordem de Serviço" que é enviado para o "Cliente", que aceita ou não aceita a execução do serviço.
 Se o "Cliente" aceitar a "Ordem de Serviço", a mesma "Equipe de Mecânicos" que avaliou o "Veículo" faz o reparo.
 
